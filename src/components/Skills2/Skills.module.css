@@ -1,0 +1,43 @@
+.Skills {
+    background-color: #003366;
+    padding-bottom: 5%; 
+}
+
+.Skills p {
+    padding-left: 25%;
+    width: 50%;
+}
+
+.Skills .List ul {
+    color: white;
+    list-style-type: none;
+    padding: 0;
+}
+
+.Skills .Container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.Skills .Container img{
+    padding-left: 36%;
+    padding-bottom: 5%;
+    scale: 25%;
+    height: 350px;
+}
+
+.Skills .Container .List {
+    flex-basis: 33%;
+    border-radius: 20px;
+    background: #2e5090;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.Skills .List ul li {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
