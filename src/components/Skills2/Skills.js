@@ -1,6 +1,6 @@
 import PageHeader from '../PageHeader/PageHeader';
 import classes from './Skills.module.css'
-import skillsImg from './../../img/code0.svg'
+import skillsImg from './../../img/code0alt.svg'
 
 const developmentSkills = 
     <ul>
@@ -8,7 +8,8 @@ const developmentSkills =
         <li>DIANE FRANKLING CO-OP</li>
         <li>&nbsp;</li>
         <li>Software Programmer</li>
-        <li>Oct 2021 -</li>
+        <li>&nbsp;</li>
+        <li>Oct 2021 - Mar 2022</li>
         <li>&nbsp;</li>
     </ul>
 const itSkills = 
@@ -17,7 +18,8 @@ const itSkills =
         <li>CAIDEN MEDIA</li>
         <li>&nbsp;</li>
         <li>Web Developer</li>
-        <li>Oct 2020 - Mar 2021</li>
+        <li>&nbsp;</li>
+        <li>Dec 2020 - Mar 2021</li>
         <li>&nbsp;</li>
     </ul>
 const webSkills = 
@@ -26,6 +28,7 @@ const webSkills =
         <li>WE CAN WIN</li>
         <li>&nbsp;</li>
         <li>Web Designer</li>
+        <li>&nbsp;</li>
         <li>Jun 2020 - Aug 2020</li>
         <li>&nbsp;</li>
     </ul>
@@ -35,6 +38,7 @@ const databaseSkills =
         <li>5N2 KITCHENS</li>
         <li>&nbsp;</li>
         <li>Web Developer</li>
+        <li>&nbsp;</li>
         <li>Jun 2019 - Aug 2019</li>
         <li>&nbsp;</li>
     </ul>

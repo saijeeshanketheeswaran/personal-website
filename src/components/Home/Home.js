@@ -5,8 +5,9 @@ const Home = () => {
     return (  
         <div className={classes.Home} id="home">
             <div className={classes.Container}>
-                <h1 className={classes.Hello}>Hello world.</h1>
-                <h1>Welcome to my website.</h1>
+                <h3>&nbsp;&nbsp;&nbsp;  Hello world! &nbsp; : )</h3>
+                <h4>&nbsp;&nbsp;&nbsp;  I am Saijeeshan,</h4>
+                <h5>&nbsp;&nbsp;&nbsp;  a website developer. &nbsp; &lt;/&gt; &nbsp;&nbsp;&nbsp;	</h5>
             </div>
         </div>
     );

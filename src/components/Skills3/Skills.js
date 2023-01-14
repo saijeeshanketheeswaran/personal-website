@@ -1,29 +1,30 @@
 import PageHeader from '../PageHeader/PageHeader';
 import classes from './Skills.module.css'
-import skillsImg from './../../img/code1.svg'
+import skillsImg from './../../img/code1alt.svg'
 
 const developmentSkills = 
     <ul>
-                <li>&nbsp;</li>
+        <li>&nbsp;</li>
         <li>ONTARIO TECH UNIVERSITY</li>
         <li>&nbsp;</li>
-        <li>Computer Science</li>
-        <li>Bachelor of Science</li>
+        <li>Computer Science (B. Sc)</li>
+        <li>&nbsp;</li>
         <li>2015 - 2020</li>
         <li>&nbsp;</li>
     </ul>
 const itSkills = 
     <ul>
-                <li>&nbsp;</li>
+        <li>&nbsp;</li>
         <li>BRAINSTATION</li>
         <li>&nbsp;</li>
         <li>Cybersecurity</li>
+        <li>&nbsp;</li>
         <li>Nov 2021 - Dec 2021</li>
         <li>&nbsp;</li>
     </ul>
 
 
-const totalSkills = [developmentSkills, itSkills]
+const totalSkills = [itSkills, developmentSkills]
 
 const Skills = () => {
     return ( 

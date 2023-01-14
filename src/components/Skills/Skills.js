@@ -1,6 +1,6 @@
 import PageHeader from '../PageHeader/PageHeader';
 import classes from './Skills.module.css'
-import skillsImg from './../../img/code.svg'
+import skillsImg from './../../img/codealt.svg'
 
 const developmentSkills = 
     <ul>
@@ -46,7 +46,7 @@ const applicationSkills =
         <li>APPLICATION</li>
         <li>&nbsp;</li>
         <li>WordPress - Unity</li>
-        <li>Microsoft Word - Microsoft Excel - Microsoft PowerPoint</li>
+        <li>Microsoft Word - Microsoft Excel</li>
         <li>Microsoft Visio</li>
         <li>&nbsp;</li>
     </ul>
@@ -56,7 +56,7 @@ const totalSkills = [developmentSkills, itSkills, webSkills, databaseSkills, app
 const Skills = () => {
     return ( 
         <div className={classes.Skills} id='skills'>
-            <PageHeader title={'My Programming Skills'}/>
+            <PageHeader title={'Programming Skills'}/>
             <div className={classes.Container}>
                 <img src={skillsImg}/>
                 {totalSkills.map(skills => {

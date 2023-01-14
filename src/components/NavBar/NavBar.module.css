@@ -24,9 +24,10 @@
 
 .NavBar nav ul li a {
     text-decoration: none;
-    color: white;
+    color: #ececec;
+    font-weight: 25;
 }
 
 .NavBar a:hover {
-    border-bottom: 5px solid white;
+    color: #2e5090
 }

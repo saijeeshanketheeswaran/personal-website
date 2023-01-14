@@ -5,7 +5,8 @@ const Contact = () => {
     return (  
         <div className={classes.Contact}>
             <div className={classes.ContactIcons}>
-                <button className={classes.buttonSub}>Submit</button>
+                <p></p>
+                <p></p>
             </div>
         </div>
     );
